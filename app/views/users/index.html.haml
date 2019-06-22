@@ -1,0 +1,6 @@
+.container
+  .col-md-8#users-content
+    .list-group
+      .list-group-item.user-list
+        %h2 ユーザー一覧
+      = render partial: "users/user", collection: @users
